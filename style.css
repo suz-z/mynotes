@@ -12,7 +12,8 @@ body {
   line-height: 1.8;
   color: #444;
   font-size: 16px;
-  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', YuGothic,'Yu Gothic','メイリオ', Meiryo, sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", YuGothic,
+    "Yu Gothic", "メイリオ", Meiryo, sans-serif;
 }
 
 /*IE対策*/
@@ -22,13 +23,12 @@ main {
 
 .container {
   position: relative;
-/* translateXで右にはみ出た要素を隠すため */
+  /* translateXで右にはみ出た要素を隠すため */
   overflow: hidden;
   min-height: 100%;
   background-color: #edf3f7;
   /* 背景色 */
 }
-
 
 h1,
 h3,
@@ -40,7 +40,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 
 .site-width {
   width: 980px;
@@ -54,7 +53,6 @@ p {
   }
 }
 
-
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +65,7 @@ p {
 }
 
 .main-content {
-/*  position: relative;*/
+  /*  position: relative;*/
   width: 76%;
   padding: 0 10px;
   box-sizing: border-box;
@@ -105,19 +103,22 @@ p {
 }
 
 /*入力フォームやボタンにフォントを適用する*/
-button, input, select, textarea {
-  font-family : inherit;
-  font-size   : 100%;
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 /*-------------------------------
 ヘッダー
 -------------------------------*/
 .header {
-  position: fixed; 
+  position: fixed;
   width: 100%;
   height: 70px;
-  background-color: #55489F; /*  メインカラー */
+  background-color: #55489f; /*  メインカラー */
   margin: 0;
   z-index: 1;
   box-shadow: 0 2px 4px #b8b8b8;
@@ -217,7 +218,6 @@ button, input, select, textarea {
     display: block;
     padding: 0;
   }
-
 }
 
 /*-------------------------------
@@ -318,7 +318,6 @@ button, input, select, textarea {
   margin-top: 40px auto;
 }
 
-
 /*-------------------------------
 メインコンテンツ
 -------------------------------*/
@@ -357,7 +356,7 @@ button, input, select, textarea {
 
 .main-section {
   background-color: #fff;
-  border-top: 6px solid #55489F;
+  border-top: 6px solid #55489f;
   border-radius: 0 0 4px 4px;
   box-shadow: 6px 6px 6px #e0e0e0;
   padding: 15px 20px 20px;
@@ -383,7 +382,6 @@ button, input, select, textarea {
 ボタン、ロゴ
 -------------------------------*/
 
-
 /*標準ボタン*/
 .btn {
   display: block;
@@ -392,7 +390,7 @@ button, input, select, textarea {
   line-height: 40px;
   box-shadow: 2px 2px 2px grey;
   margin: 15px auto;
-/*  padding: 5px;*/
+  /*  padding: 5px;*/
   background-color: rgb(248, 154, 53);
   border: 1px solid #f78f1e;
   border-radius: 5px;
@@ -458,7 +456,6 @@ button, input, select, textarea {
 .btn-disabled:hover {
   background: #e0e0e0;
 }
-
 
 .select-category {
   width: 100%;
@@ -625,7 +622,7 @@ button, input, select, textarea {
 -------------------------------*/
 .display-today {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -648,7 +645,6 @@ button, input, select, textarea {
 }
 */
 
-
 /*-------------------------------
 フォーム 
 -------------------------------*/
@@ -658,7 +654,7 @@ button, input, select, textarea {
   margin: 40px auto;
   padding: 15px 32px;
   background-color: #fff;
-  border-top: 6px solid #55489F;
+  border-top: 6px solid #55489f;
   border-radius: 0 0 8px 8px;
   box-shadow: 6px 6px 6px #e0e0e0;
   padding: 30px 40px 40px;
@@ -718,7 +714,7 @@ button, input, select, textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-/*  margin-bottom: 12px;*/
+  /*  margin-bottom: 12px;*/
   padding: 6px 10px;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
@@ -734,7 +730,6 @@ button, input, select, textarea {
   background: #ffd5d5;
 }
 */
-
 
 /*-------------------------------
 編集ページ edit.php
@@ -756,7 +751,6 @@ button, input, select, textarea {
   border-radius: 5px;
   font-size: 16px;
 }
-
 
 /*-------------------------------
 ページ
@@ -807,7 +801,7 @@ button, input, select, textarea {
 }
 
 .page:hover {
-  background-color: #39306A;
+  background-color: #39306a;
 }
 
 .page.active:hover {
@@ -827,7 +821,7 @@ button, input, select, textarea {
   width: 100%;
   height: 40px;
   line-height: 40px;
-  background-color: #55489F;
+  background-color: #55489f;
   text-align: center;
   color: #fff;
   font-size: 14px;
@@ -856,7 +850,7 @@ button, input, select, textarea {
   height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 .acd-check:checked + .acd-label + .acd-form {
@@ -877,15 +871,11 @@ button, input, select, textarea {
   display: inline-block;
 }
 
-
-
-
-
 /*-------------------------------
 ユーティリティー（個別の文字配置、色など）
 -------------------------------*/
 .font-noto {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .small {
@@ -900,20 +890,19 @@ button, input, select, textarea {
   text-align: right;
 }
 .under-line {
-  box-shadow: 0px -6px 5px -3px rgba(247,198,104,0.6) inset, 0px 8px 4px -2px #f7c668;
-/*  border-bottom: 6px double rgb(248, 154, 53);*/
+  box-shadow: 0px -6px 5px -3px rgba(247, 198, 104, 0.6) inset,
+    0px 8px 4px -2px #f7c668;
+  /*  border-bottom: 6px double rgb(248, 154, 53);*/
 }
 
 .caution {
   color: #f00;
 }
 
-
 /*エラーメッセージ表示用*/
 .msg {
   color: #f00;
 }
-
 
 /*-------------------------------
 JSで表示させるメッセージ(アニメーション)
@@ -944,8 +933,8 @@ JSで表示させるメッセージ(アニメーション)
   box-shadow: 2px 2px 4px;
   padding: 10px 20px;
   font-size: 18px;
-  animation-duration: 3s;/* アニメーション時間 */
-  animation-name: RightToLeft;/* アニメーション名 */
+  animation-duration: 3s; /* アニメーション時間 */
+  animation-name: RightToLeft; /* アニメーション名 */
 }
 
 @media screen and (max-width: 768px) {
@@ -956,7 +945,3 @@ JSで表示させるメッセージ(アニメーション)
     font-size: 16px;
   }
 }
-
-
-
-
